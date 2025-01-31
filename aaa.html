@@ -1,0 +1,621 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Navodaya Vidyalaya Samiti
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+
+        .footer {
+            background-color: #000;
+            padding: 20px 0;
+            color: #fff;
+            font-size: 14px;
+        }
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer .column {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px 0;
+        }
+        .footer .column h3 {
+            color: #d4a017;
+            margin-bottom: 10px;
+        }
+        .footer .column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer .column ul li {
+            margin-bottom: 5px;
+        }
+        .footer .column ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer .column ul li a:hover {
+            text-decoration: underline;
+        }
+        .footer .column ul li i {
+            margin-right: 5px;
+        }
+        .footer .contact-info p {
+            margin: 5px 0;
+        }
+        .footer .contact-info a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .footer .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .footer .bottom-bar {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #444;
+            margin-top: 20px;
+        }
+        .footer .bottom-bar a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer .bottom-bar a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .footer .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .footer .column {
+                min-width: 100%;
+                text-align: center;
+            }
+        }
+  </style>
+ </head>
+ <body class="font-roboto">
+  <header class="flex justify-between items-center p-4 bg-white border-b-2 border-gray-300">
+   <img alt="Navodaya Vidyalaya Samiti Logo" class="h-20" src="https://navodaya.gov.in/nvs/system/modules/NVS.WEB/resources/images/nvs_logo_color1.png"/>
+   <div class="text-center">
+    <h1 class="text-2xl text-blue-900">
+     Navodaya Vidyalaya Samiti
+    </h1>
+    <p class="text-green-700">
+     ( An Autonomous Body Under Ministry of Education ) Government Of India
+    </p>
+    <h2 class="text-xl text-blue-900">
+     Jawahar Navodaya Vidyalaya, Ratibad, Bhopal (Madhya Pradesh)
+    </h2>
+   </div>
+   <img alt="Swachh Bharat Logo" class="h-20" src="https://navodaya.gov.in/nvs/system/modules/NVS.WEB/resources/images/swach2.png"/>
+  </header>
+  <nav class="bg-blue-900 p-2">
+   <ul class="flex justify-center space-x-4 text-white">
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Home
+     </a>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      About Us
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Commissioner's Message
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Dy. Commissioner's Message
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Principal's Desk
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Vision &amp; Mission
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         About JNV
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Staff
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Success Stories
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Administration
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Vidyalaya Management Committee
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Vidyalaya Advisory Committee
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Vidyalaya Level Committees
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Student Council Members
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Successive Principals
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Successive Vice Principals
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Admission
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Enrolment Policy
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         JNVST Statistics
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Admission Notification
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Academics
+     </a>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Activities
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Student Strength
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Academic Schedule
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Migration
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         ICT in Education
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Facilities
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Annual Calendar
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Class Teacher
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         House Masters/ Mistress
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Career Guidance
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Exams And Results
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Class Wise Syllabus
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Learning Resources
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Sample papers
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Project and Assignments
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Results
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Notification
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Tender
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Tender Notice
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Terms &amp; Conditions
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Tender Forms
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Approved Tender Rates
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="relative group">
+     <a class="px-4 py-2" href="#">
+      Contact Us
+     </a>
+     <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+      <ul>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         JNV
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         Regional Officer
+        </a>
+       </li>
+       <li class="px-4 py-2 hover:bg-green-500 hover:text-white">
+        <a href="#">
+         NVS Headquarter
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+   </ul>
+  </nav>
+  <div class="p-4">
+   <div class="text-sm mb-4">
+    <a class="text-blue-900 hover:underline" href="#">
+     About Us
+    </a>
+    /
+    <a class="text-blue-900 hover:underline" href="#">
+     About JNV
+    </a>
+   </div>
+   <div class="bg-gray-100 p-4 rounded-lg flex flex-col md:flex-row">
+    <div class="md:w-1/2 md:mr-4">
+     <h3 class="text-blue-900 text-xl mb-2">
+      About JNV Bhopal
+     </h3>
+     <p class="text-gray-700 leading-relaxed">
+      The 12th Feb, 1993 was the most auspicious day when the foundation stone of Jawahar Navodaya Vidyalaya, Ratibad, Bhopal was laid down by Hon Shri Arjun Singh, the present Education Minister of Madhya Pradesh. The school campus covers around 30.67 acres of forested with its buildings connected by steep and windy paths and offering spectacular views at every turn. These buildings include the beautiful old Quad, the modern state of art infrastructure and the newly-refurbished student hostels and staff houses. The academic buildings including several classrooms are linked by a computer network. The widespread use of email and an intranet system shrinks the distances and keeps staff, students and administration in quick and easy contact with one another. The school is located on Sehore Bhopal Road at village Ratibad, Bhopal.
+     </p>
+    </div>
+    <div class="md:w-1/2 mt-4 md:mt-0">
+     <img alt="Academic Block (Outside)" class="rounded-lg" src="https://navodaya.gov.in/nvs/export/sites/nvs/nvs-school/BHOPAL/images/Academic-Block-Outside.JPG_883095396.jpg" height="500px" width="400px" style="margin-left: 300px;"/>
+    </div>
+   </div>
+   <div class="mt-4">
+    <h3 class="text-blue-900 text-xl mb-2">
+     Details about JNV BHOPAL
+    </h3>
+    <!-- Add more details here as needed -->
+   </div>
+  </div>
+
+  <div class="container">
+    <h1>Jawahar Navodaya Vidyalaya School Information</h1>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Name of the School with Address</td>
+            <td>Jawahar Navodaya Vidyalaya, Ratibad, District Bhopal, Madhya Pradesh PIN - 462044</td>
+        </tr>
+        <tr>
+            <td>E-Mail</td>
+            <td>jnvsbpl[at]gmail[dot]com</td>
+        </tr>
+        <tr>
+            <td>Phone No.</td>
+            <td>0755-2896325</td>
+        </tr>
+        <tr>
+            <td>Fax No.</td>
+            <td>0755-2896326</td>
+        </tr>
+        <tr>
+            <td>Year of Establishment</td>
+            <td>1993</td>
+        </tr>
+        <tr>
+            <td>NOC from State/UT</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Recognition Authority</td>
+            <td>CBSE</td>
+        </tr>
+        <tr>
+            <td>Status of Affiliation</td>
+            <td>Provisional (To be renewed every year)</td>
+        </tr>
+        <tr>
+            <td>Affiliation No.</td>
+            <td>1040034</td>
+        </tr>
+        <tr>
+            <td>Affiliation Since</td>
+            <td>1996</td>
+        </tr>
+        <tr>
+            <td>Extension of Affiliation Upto</td>
+            <td>March 2023</td>
+        </tr>
+        <tr>
+            <td>Trust/Society Name</td>
+            <td>Navodaya Vidyalaya Samiti, Noida</td>
+        </tr>
+        <tr>
+            <td>Area of School Campus</td>
+            <td>30.67 Acres (124117.09 Sq Mtrs)</td>
+        </tr>
+        <tr>
+            <td>Playground Area</td>
+            <td>15000 sq. mtrs</td>
+        </tr>
+        <tr>
+            <td>Swimming Pool</td>
+            <td>N.A</td>
+        </tr>
+        <tr>
+            <td>Indoor Games</td>
+            <td>Table Tennis, Judo, Badminton, Chess, Carrom</td>
+        </tr>
+        <tr>
+            <td>Dance Room</td>
+            <td>Not Available</td>
+        </tr>
+        <tr>
+            <td>Gymnasium</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Music Room</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Hostels</td>
+            <td>Separate Accommodation for Boys & Girls Available</td>
+        </tr>
+        <tr>
+            <td>Health & Medical Checkup</td>
+            <td>Periodical by Vidyalaya Doctor and Regular Staff Nurse</td>
+        </tr>
+        <tr>
+            <td>Fee Details (IX to XII)</td>
+            <td>600/- per month for General & OBC Boys (Except BPL), 1500/- per month for Wards of Govt Employees</td>
+        </tr>
+        <tr>
+            <td>Library Size</td>
+            <td>880 sq. feet</td>
+        </tr>
+        <tr>
+            <td>No. of Dailies</td>
+            <td>10 (4 English, 4 Hindi, 2 Urdu)</td>
+        </tr>
+        <tr>
+            <td>Total Books</td>
+            <td>7702 books including Encyclopedias</td>
+        </tr>
+        <tr>
+            <td>Academic Session Period</td>
+            <td>April to March</td>
+        </tr>
+        <tr>
+            <td>Vacation Period</td>
+            <td>Summer: 1st May to 30th June, Autumn: Oct-Nov, Winter: None</td>
+        </tr>
+        <tr>
+            <td>Admission Period</td>
+            <td>July to September</td>
+        </tr>
+    </table>
+</div>
+
+<!--*************footer*************************-->
+
+<div class="footer">
+    <div class="container">
+        <div class="column">
+            <h3>Important Link</h3>
+            <ul>
+                <li><i class="fas fa-link"></i><a href="#">NVS(HQ)</a></li>
+                <li><i class="fas fa-link"></i><a href="#">CBSE</a></li>
+                <li><i class="fas fa-link"></i><a href="#">NCERT</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Mandatory Public Disclosure</a></li>
+                <li><i class="fas fa-link"></i><a href="#">National Cyber Crime Reporting Portal (HelpLine Number 1930)</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Regional Offices</h3>
+            <ul>
+                <li><i class="fas fa-link"></i><a href="#">Bhopal</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Chandigarh</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Hyderabad</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Jaipur</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Lucknow</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Patna</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Pune</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Shillong</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><i class="fas fa-link"></i><a href="#">Terms & Conditions</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Sitemap</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Disclaimer</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Copyright Policy</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Privacy Policy</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Hyperlink Policy</a></li>
+                <li><i class="fas fa-link"></i><a href="#">NVS Directory</a></li>
+                <li><i class="fas fa-link"></i><a href="#">RTI ACT 2005</a></li>
+                <li><i class="fas fa-link"></i><a href="#">POCSO</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Downloads</a></li>
+            </ul>
+        </div>
+        <div class="column contact-info">
+            <h3>Contact Info</h3>
+            <p><strong>Address:</strong> Jawahar Navodaya Vidyalaya, Village Ratibad, District Bhopal, Madhya Pradesh, INDIA PIN - 462044</p>
+            <p><strong>Phone Number:</strong> <a href="tel:+917552896325">+91-755-2896325</a></p>
+            <p><strong>Fax Number:</strong> 0755-2896326</p>
+            <p><strong>E-mail:</strong> <a href="mailto:jnvbpl@gmail.com">jnvbpl[at]gmail[dot]com</a></p>
+        </div>
+        <div class="column">
+            <h3>MIS</h3>
+            <ul>
+                <li><i class="fas fa-link"></i><a href="#">Admin Login</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Employee Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <p>© 2022. All rights reserved | Designed and Developed by CDAC</p>
+        <p>All Content Managed by: Navodaya Vidyalaya Samiti</p>
+    </div>
+</div>
+ </body>
+</html>
