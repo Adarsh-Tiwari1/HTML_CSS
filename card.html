@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='card.css'>
+    <script src='main.js'></script>
+    <style>
+      .shopping {
+    font-family: Arial, sans-serif;
+  }
+  
+  .pricing h2 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .pricing-info p {
+    margin-left: 10px;
+  }
+  
+  .cart button {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .coupon input[type="text"] {
+    margin-right: 5px;
+  }
+  
+  .coupon button {
+    background-color: #FFA500;
+    border: none;
+    padding: 10px;
+  }
+  
+  .main{
+    text-align: center;
+  }
+  
+    </style>
+</head>
+<body class="main">
+    <div class="shopping">
+        <div class="pricing">
+          <h2>Total</h2>
+          <h2>Price</h2>
+          <p>Subtotal:: $<span id="subtotal">500</span></p>
+          <p>Shipping:: $<span id="shipping">45</span></p>
+          <p>Total:: $<span id="total">545</span></p>
+        </div>
+        <div class="cart"> <br>
+          <button type="button" >Update Cart</button>
+          <button type="button" >Check Out</button>
+        </div><br>
+        <div class="coupon">
+          <label for="coupon-code">Apply Coupon</label>
+          <input type="text" placeholder="Coupon">
+          <button type="submit">APPLY</button>
+        </div>
+      </div>
+      
+</body>
+</html>
