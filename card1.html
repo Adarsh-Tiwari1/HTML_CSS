@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card1.css">
+    <style>
+        .cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.item-name {
+    font-weight: bold;
+}
+.item-price {
+    color: #555;
+}
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.coupon-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.apply-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <div class="item">
+            <span class="item_name">Strawberry</span>
+            <span class="item_price">$85</span>
+        </div>
+        <div class="item">
+            <span class="item_name">Berry</span>
+            <span class="item_price">$70</span>
+        </div>
+        <div class="item">
+            <span class="item_name">Lemon</span>
+            <span class="item_price">$35</span>
+        </div>
+        <div class="total">
+            Subtotal: $500
+        </div>
+        <div class="total">
+            Shipping: $45
+        </div>
+        <div class="total">
+        </div>
+        <input type="text" class="coupon_input" placeholder="Enter coupon code">
+        <button class="apply-button">APPLY</button>
+        <button>Update Cart</button>
+        <button>Check Out</button>
+    </div>
+</body>
+</html>
