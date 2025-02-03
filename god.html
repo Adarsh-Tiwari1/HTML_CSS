@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="god.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+html{
+    overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(182, 206, 203);
+    margin: 0px;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+    font-size: 26px;
+    margin: 0px;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+    overflow-x: hidden;
+}
+.nav_img{
+    width: 130px;   
+    margin-left: 0px;
+    top: 0px;
+    overflow-x: hidden;
+}
+
+.nav li ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+.nav li ul li{
+    display: flex;
+    padding: 50px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.nav li ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li ul li a:hover{
+    color: pink;
+    border: 1px solid rgb(27, 228, 9);
+}
+.nav_2{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+.nav_2 li{
+    list-style-type: none;
+    padding: 10px;
+}
+.nav_button{
+    background-color: rgb(6, 1, 2);
+    border: 1px solid red;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+.nav_button:hover{
+    color: pink;
+}
+.nav_2 li li a i{
+    font-size: 40px;
+}
+
+/*----------------------------------------------------Hero----------------------------------------------*/
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+}
+.about div div img{
+    height: 500px;
+    width: 400px;
+    border-radius:250px;
+    box-shadow: 0px 0px 50px green;
+    overflow-x: hidden;
+}
+.about_font{
+    font-size: 30px;
+    color: rgb(13, 70, 175);
+}
+.about_web{
+    font-size: 25px;
+}
+.about_text{
+    font-size: 20px;
+}
+.about_button{
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 30px;
+    border-radius: 70px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.about_button a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.about_button a:hover{
+    color: pink;
+}
+.about_logo{
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 50px;
+    position: sticky;
+    top: 300px;
+    right: 110px;
+    overflow-x: hidden;
+}
+
+/*----------------------------------------hero-----------------------------------------*/
+.hero{
+    font-size: 35px;
+    overflow-x: hidden;
+}
+.hero_detals{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    align-items: center;
+    overflow-x: hidden;
+}
+.hero_box{
+    border: 1px solid green;
+    padding: 70px 70px 70px 70px;
+    border-radius: 30px;
+   
+}
+
+/*-----------------------------------skill-----------------------*/
+
+.skill_detal{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.personal{
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+/*---------------------------portfolio--------------------------------------*/
+.blog_nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 500px;
+    padding-left: 500px;   
+    list-style-type: none;
+    overflow-x: hidden;
+}
+.blog_nav ul a{
+    font-size: 15px;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+.blog_nav ul a img:hover{
+    color: palevioletred;
+    border: 1px solid pink;
+}
+.blog_port{
+    font-size: 30px;
+}
+.blog_img  {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;  
+    border-radius: 1px; 
+    overflow-x: hidden; 
+}
+.blog_img2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    overflow-x: hidden;
+}
+.blog_img img:hover{
+    scale: 1.2;
+    transition: all 1s;
+}
+.blog_img2:hover{
+    scale: 1.2;
+    transition: all 1s;
+}
+/*--------------------------------touch name---------------------*/
+#touch{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+   /* padding-left: 350px;
+    padding-right: 220px; */
+    overflow-x: hidden;
+}
+#touch div input{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+}
+#touch_2{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+#touch_2 div input{
+    border-radius: 50px;
+    width: 300px;
+    height: 30px;
+   /* padding-left: 200px;
+    padding-right: 200px; */
+}
+#mail{
+    display: flex;
+    padding-left: 150px;
+    overflow-x: hidden;
+}
+#mail div i{
+    font-size: 30px;
+    background-color: rgb(128, 189, 128);
+}
+#send_button{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 400px;
+    overflow-x: hidden;
+}
+#send_button div i{
+    font-size: 25px;
+}
+#send_button div a{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    border-color: rgb(255, 0, 0);
+    align-items: center;
+}
+#send_button div a:hover{
+    color: pink;
+}
+/*------------------------------------*/
+#blog{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+#blog div a {
+    border: 1px solid black;
+    overflow-x: hidden;
+    
+}
+
+/*----------------------footer--------------------*/
+.to{
+    background-color: rgb(8, 12, 12);
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    overflow-x: hidden;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(65, 101, 101);
+    overflow-x: hidden;
+}
+#foot_2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   /* padding-left: 400px;
+    padding-right: 400px; */
+    background-color: rgb(65, 101, 101);
+    overflow-x: hidden; 
+}
+#foot_2 div img{
+    background-color: darkslategray;
+    padding: 20px 20px 20px 20px;
+    overflow-x: hidden;
+}
+.my{
+    font-size: 26px;
+    overflow-x: hidden;
+}
+.back{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+    </style>
+</head>
+<body>
+    
+<ul class="nav">
+    <li>
+        <a href="https://in.pinterest.com/"><img class="nav_img" src="https://i.pinimg.com/564x/d1/5a/dc/d15adc1e1e6d0890df1b700bffaff201.jpg" alt="" ></a>
+    </li>
+    <li>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#hero_detals">Hero</a></li>
+            <li><a href="#skill_detal">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#blog_img">Portfolio</a></li>
+            <li><a href="#skill_detal">Touch</a></li>
+            <li><a href="#">Blog</a></li>
+
+        </ul>
+    </li>
+    
+
+        <ul class="nav_2">
+            <li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></i></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a class="nav_button" href="https://i.pinimg.com/564x/1a/11/d2/1a11d2c16d8ac9166f62c2847ba856ac.jpg">Let's Start</a></li>
+            </li>
+        </ul>
+        
+    </ul> <br><br>
+
+    <!---------------------------------------Hero------------------------------------------------>
+    <section class="about">
+        <div>
+            <div>
+                <a href="https://i.pinimg.com/564x/f2/bd/3a/f2bd3ab74b4674900c826f555dad89a8.jpg"><img src="https://i.pinimg.com/564x/72/67/d8/7267d83e899b6df485e9f6e810c2ad7c.jpg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <div class="about_font">I'AM ADARSH TIWARI</div>
+            <div class="about_web">WEB DESIGNER</div><br>
+            <div class="about_text">i'am animal lover based web designer & fornt-end developer focused on crafting<br>
+                 clean & user-friendly experience, i am passionate about building excellent<br>
+                 software that improves the lives of that around me..
+            </div><br>
+            <div class="about_button">
+                <a href="#">MORE ABOUT ME</a>
+            </div>
+        </div>
+        <div>
+            <div class="about_logo">
+                <a href="https://www.google.com/maps/place/Sonauri,+Madhya+Pradesh+486446/@24.673835,81.200485,15z/data=!3m1!4b1!4m6!3m5!1s0x3984f50c46e8f213:0x3a8056a599b8fbe4!8m2!3d24.6787564!4d81.2050614!16s%2Fg%2F12hn7zcx5?entry=ttu"><i class="fa-solid fa-house"></i></a>         
+                <a href="https://www.hackerrank.com/dashboard"><i class="fa-solid fa-user"></i></a>               
+                <a href="https://www.amazon.in/gcx/Gifts-for-Everyone/gfhz/"><i class="fa-solid fa-gift"></i> </a>              
+                <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-regular fa-envelope"></i></a>                
+                <a href="https://messages.google.com/web/"><i class="fa-solid fa-message"></i> </a>               
+            </div>
+        </div>       
+    </section>
+
+    <!--------------------------hero------------------------------------>
+    <center>
+        <div class="hero">
+              <div>ABOUT <b style="color: crimson;">ME</b></div>
+        </div>
+    </center>
+    <div> <h1>PERSONAL INFO</h1> </div> 
+
+    <section class="hero_detals" id="hero_detals">
+        <div>
+                 
+            <div>First Name:<b>Adarsh</b></div><br>
+            <div>Age:<b>20</b></div><br>
+            <div>Freelancer:<b>Available</b></div><br>
+            <div>Phone:<b>+91 7805930416</b></div><br>
+            <div>Skype:<b>adarsh.tiwari</b></div><br>
+        </div>
+        <div>
+            <div>Last Name:<b>Tiwari</b></div><br>
+            <div>Nationality:<b>Indian</b></div><br>
+            <div>Address:<b>Rewa</b></div><br>
+            <div>Emai:l<b>adarshrewa46@gmail.com</b></div><br>
+            <div>Language:<b>Englis & Hindi</b></div><br>
+        </div>
+        <div>
+            <div class="hero_box"><b style="color: rgb(61, 84, 126); font-size: 40px;">12+</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YEARS OF<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EXPERIENCE</div><br><br>
+            <div class="hero_box"><b style="color: rgb(61, 84, 126); font-size: 40px;">97+</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMPLETE <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECT</div><br><br>
+        </div>
+        <div>
+            <div class="hero_box"><b style="color: rgb(61, 84, 126); font-size: 40px;">88+</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAPPY <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CUSTOMERS</div><br><br>
+            <div class="hero_box"><b style="color: rgb(61, 84, 126); font-size: 40px;">76+</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AWARDS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WIN</div><br><br>
+        </div>
+    </section>
+
+    <!------------------------------------------skill----------------------------------------->
+    <center>
+        <div>
+            <div>MY SKILLS</div>
+        </div>
+    </center>
+    <section >
+        <div class="skill_detal" id="skill_detal">
+            <label for="progress">HTML</label> 
+            <progress id="progress" max="100" value="80"></progress>85%
+            <label for="progress">CSS</label> 
+            <progress id="progress" max="100" value="70"></progress>70%
+            <label for="progress">JAVASCRIOT</label> 
+            <progress id="progress" max="100" value="0"></progress>0%
+            <label for="progress">PHP</label> 
+            <progress id="progress" max="100" value="0"></progress>0%                       
+        </div>
+        <div class="skill_detal">
+            <label for="progress">JAVA</label> 
+            <progress id="progress" max="100" value="15"></progress>15%
+            <label for="progress">C++</label> 
+            <progress id="progress" max="100" value="30"></progress>30%
+            <label for="progress">REACT</label> 
+            <progress id="progress" max="100" value="0"></progress>0%
+            <label for="progress">ANGULAR</label> 
+            <progress id="progress" max="100" value="0"></progress>0%                      
+        </div>
+    </section><br><br>
+
+    <!---------------------------------blog--------------------------------->
+        <center>
+                <div class="blog_port">
+                    <div>MY PORTFOLIO</div>
+                </div>
+        </center>
+
+        <section class="blog_nav"><br><br>
+            <ul>
+                <a href="#"><li>ALL</li></a>
+                <a href="#"><li>LOGO</li></a>
+                <a href="#"><li>VIDEO</li></a>
+                <a href="#"><li>GRAPHIC GESIGN</li></a>
+                <a href="#"><li>MOCKUP</li></a>
+            </ul>
+        </section> <br><br><br>
+        <section>
+            <div class="blog_img" id="blog_img">
+                <div>
+                    <img src="https://i.pinimg.com/564x/6f/13/8b/6f138bb0c3dc9647cd9e8c3a59d2cee6.jpg" alt="" height="300px" width="200px" >
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/564x/d5/ea/76/d5ea76cd9ff0f5e9805d8d993f44999e.jpg" alt="" height="300px" width="200px">
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/564x/17/2b/29/172b29cdbc9bf5d502a4c552a12fdf91.jpg" alt="" height="300px" width="200px">
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/54/1d/15/541d1509781d326688f20ba48213974d.jpg" alt="" height="300px" width="200px">
+                </div> 
+
+            </div> <br><br>
+            <div class="blog_img2">
+                <div>
+                    <img src="https://i.pinimg.com/564x/e8/6c/71/e86c711e358867bad8e8efdbafb65611.jpg" alt="" height="300px" width="200px">
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/f9/f0/78/f9f07811282df22e2aaa232116d66a66.jpg" alt="" height="300px" width="200px">
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/736x/b7/47/f4/b747f483a2ecbfce2db633925aca3c20.jpg" alt="" height="300px" width="200px">
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/564x/3f/ad/25/3fad2530474bb07b941eeed685865ec4.jpg" alt="" height="300px" width="200px">
+                </div>
+            </div>
+        </section><br><br><br><br>
+
+        <!----------------------------------------------------touch-->
+        <center>
+            <div>
+                <div style="font-size: 30px;">GET IN <b style="color: rgb(236, 87, 112);">TOUCH</b></div>
+            </div>
+        </center><br><br><br><br>
+        <div id="touch">
+            <div><b>DON'T BE SHY!</b></div>
+            <div>
+                <input type="text" placeholder="name" maxlength="30">
+            </div>
+            <div>
+                <input type="email" placeholder="email">
+            </div>
+        </div> <br><br><br>
+            <section id="touch_2">
+               <div>
+                   <div>Feel free to get in touch with me.I am always open<br>to discussing new project,create ideas or<br>opportunious to be part of your versios</div>
+               </div>
+               <div>
+                <input type="text" placeholder="your subject">
+               </div>
+            </section> <br><br>
+
+            <div id="mail">
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                   &nbsp;&nbsp; MAIL ME<br><b> &nbsp;&nbsp;&nbsp;adarshrewa46@gmail.com</b>
+                </div>
+                
+            </div><br><br><br>
+            <div id="send_button">
+                <div>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>&nbsp;
+                    <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>&nbsp;
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>&nbsp;
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>&nbsp;
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>&nbsp;
+                </div>
+                <div>
+                    <a href="#">SEND MESSAGE</a>
+                </div>
+            </div> <br><br><br><br>
+
+            <!------------------------------blog------------------------------------------->
+            <center>
+                <div class="my">MY <b style="color: rgb(44, 192, 192);">VLOG</b></div>
+            </center>
+
+            <section><br><br>
+                <dev id="blog">
+                    <div>
+                        <a href="#"><img src="https://i.pinimg.com/564x/9f/4b/9b/9f4b9b13548e042db4f0361978f088dc.jpg" alt="" height="500px"></a>
+                        <h1>How to Own your Audience by <br>creating an Email list</h1>
+                        <p>i am adarsh kumar tiwari</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.pinimg.com/564x/a3/f1/f9/a3f1f9f59ad20938ff2856673a48c575.jpg" alt="" height="500px"></a>
+                        <h1>How to Own your Audience by <br>creating an Email list</h1>
+                        <p>i am adarsh kumar tiwari</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.pinimg.com/564x/5c/1a/1c/5c1a1c8ac126433c1c8588f0afaf456d.jpg" alt="" height="500px"></a>
+                        <h1>How to Own your Audience by <br>creating an Email list</h1>
+                        <p>i am adarsh kumar tiwari</p>
+                    </div>
+                </dev>
+            </section> <br><br>
+
+            <!--------------------footer-->
+            <center>
+                   <div class="to">
+                       <div><a class="back" href="#">Back to top</a></div>
+                    </div>
+                </center>   
+                
+                <section class="foot">
+                    <div>
+                        <div><h1>Get to know us</h1></div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                    </div>
+                    <div>
+                        <div><h1>Get to know us</h1></div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                    </div>
+                    <div>
+                        <div><h1>Get to know us</h1></div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                    </div>
+                    <div>
+                        <div><h1>Get to know us</h1></div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                        <div>About us</div>
+                        <div>Careers</div>
+                        <div>press</div>
+                    </div>
+                </section>
+                
+
+                <div id="foot_2">
+                    <div>
+                        <img src="https://i.pinimg.com/564x/8b/c8/be/8bc8be698d73566fac6dd992fd9864b4.jpg" alt="" height="70px">
+                    </div>
+                    <div>
+                        <select>
+                            <option>Englis</option>
+                            <option>Hindi</option>
+                            <option>Sanskrit</option>
+                        </select>
+                    </div><br><br>
+                    <div>
+                        <img src="https://i.pinimg.com/564x/68/61/d2/6861d25842c69dd209f9bbd1e60d95a1.jpg" alt="" height="60px">
+                    </div>
+                </div>
+
+</body>
+</html>
+
