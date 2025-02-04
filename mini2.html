@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mini2.css">
+    <style>
+        #na{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.787);
+    overflow-x: hidden;
+}
+#na ul{
+    display: flex;
+    list-style-type: none;
+   align-items: center;
+}
+#na ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.dis{
+    color: rgba(61, 68, 144, 0.51);
+    font-size: 20px;
+}
+@media(max-width:1024px){
+    #na ul{
+        display: flex;
+    }
+}
+@media(max-width:768px){
+    #na ul{
+        display: flex;
+    }
+}
+
+
+
+
+/*-----------------------------------nav-----------------------------------------*/
+
+#nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+#nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+@media(max-width:1024px) {
+    #nav{
+        display: none;
+    } 
+    
+    
+    #input1:checked~#nav{
+        display: block;
+    } 
+    #input1:checked~#nav .nav2{
+        display: none !important;
+    }  #input1:checked~#nav .nav3{
+        display: none !important;
+    } 
+    #input1:checked~#nav .nav1{
+        display: block !important;
+    } 
+}
+
+/*---------------------------hero--------------------------------------------------*/
+
+#hero{
+    background-image: url(https://demo.minimog.co/cdn/shop/files/2_a7f32021-9ab2-46a3-b1bd-833958b38d38.jpg?v=1628328726&width=2000);
+    width: 100%;
+    height:50vi;
+    overflow-x: hidden;
+}
+@meadi(max-width){
+    #vg{
+     position:  ;
+    }
+}
+#hero div{
+    margin-left: 150px;
+}
+.hero1{
+    font-size: 50px;
+}
+.hero2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.686);
+}
+.hero3 a{
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.hero3 a:hover{
+   background-color: rgba(236, 207, 207, 0.681);
+   color: black;
+   padding: 10px 20px 10px 20px;
+}
+
+/*----------------------------------card------------------------------------------*/
+#card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    overflow-x: hidden;
+}
+.card1{
+    font-size: 23px;
+}
+
+/*-----------------------------------------------higiligits-----------------------------------------------*/
+#highligits{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+@media(max-width:1024px){
+    #highligits{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:786px){
+    #highligits{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+}
+#highligits div a{
+    text-decoration: none;
+    color: black;
+}
+.high1{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.high2{
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.high{
+    display: flex;
+}
+
+
+
+#highligits1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+@media(max-width:1024px){
+    #highligits1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+
+    }
+}
+@media(max-width:786px){
+    #highligits1{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+
+    }
+}
+#highligits1 div a{
+    text-decoration: none;
+    color: black;
+}
+.high1{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.high2{
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.high{
+    display: flex;
+}
+.shop a{
+    text-decoration: none;
+    padding: 15px 30px 15px 30px ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.shop a:hover{
+    background-color: rgba(147, 148, 69, 0.651);
+    color: wheat;
+}
+
+/*---------------------------------people---------------------------------------*/
+#people{
+    font-size: 30px;
+    margin-top: 60px;
+    background-color:rgba(181, 152, 152, 0.765);
+    padding: 50px;
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------saying-------------------------------------------*/
+#saying{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgba(181, 152, 152, 0.765);
+    padding: 50px;
+    overflow-x: hidden;
+}
+#saying div div img{
+    height: 100px;
+}
+.say1{
+    font-size: 20px;
+}
+
+/*-----------------------------------------max--------------------------------------------*/
+#max{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+}
+.max1 div a img{
+    height: 500px;
+    width: 300px;
+}
+.max2 div a img{
+    height: 500px;
+    width: 300px;
+}
+.max3 div a img{
+    height: 350px;
+    width: 350px;
+}
+
+#ma{
+    margin: 100px;
+    font-size: 30px;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    overflow-x: hidden;
+}
+input[type="email"]{
+    height: 30px;
+    width: 150px;
+}
+.footer_logo_a a{
+    color: rgb(0, 0, 0);
+}
+
+/* .foot1{
+
+} */
+.foot1_a{
+    font-size: 35px;
+}
+.foot1_b{
+    font-size: 18px;
+}
+.foot1_c{
+    font-size: 20px;
+}
+.foot2 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.foot3 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.foot4 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#footer_logo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+
+
+    
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav id="na">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i>&nbsp; 300k Followres</a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i>&nbsp; 100k Followers</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Open Doors To A word Of Fashion <b class="dis">Discover More</b></a></li>
+        </ul>
+        <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">USD</a></li>
+        </ul>
+    </nav>
+
+
+  <!-----------------------------------nav-------------------------------------------->
+<!--      
+    <input type="checkbox" id="input1">
+    <label for="input1"> clcik </label> -->
+    <nav id="nav">
+        <ul class="nav1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">FoxKit</a></li>
+        </ul>
+        <ul class="nav2">
+            <li><a href="#"><b>mInImoG</b></a></li>
+        </ul>
+        <ul class="nav3">
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </nav>
+
+    <!---------------------------------hero------------------------------------>
+    <section id="hero"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="vg">
+            <div class="hero1"><b>Everyday<br>Fashion</b></div><br><br>
+            <div class="hero2">Choose the best.choose us.</div><br><br>
+            <div class="hero3"><a href="#">Shop now</a></div>
+        </div>
+    </section>
+
+    <!--------------------------------card------------------------------->
+    <section id="card">
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/files/5_b7507f47-0486-46e7-8d7a-c2585244abf4.jpg?v=1628328825&width=360" alt=""></a></div>
+            <div class="card1">Jacket &nbsp;<sup>11</sup></div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/files/6_ce64487b-5a91-45de-93ee-111469e33689.jpg?v=1628328826&width=360" alt=""></a></div>
+            <div class="card1">Glassess &nbsp;<sup>5</sup></div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/files/7_60c76afe-5f63-4ec8-9e9c-67f233844c95.jpg?v=1628328826&width=360" alt=""></a></div>
+            <div class="card1">Tops &nbsp;<sup>10</sup></div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/files/8_5cf42e6f-23bf-42f9-8fb9-e166e7226567.jpg?v=1628328826&width=360" alt=""></a></div>
+            <div class="card1">New arrivals &nbsp;<sup>12</sup></div>
+        </div>
+    </section><br><br><br><br><br><br>
+
+    <!--------------------------------highliglht------------------------------------>
+    <center>
+        <div>
+           <div style="font-size: 35px;"><b>This Week's Highligits</b></div>
+        </div>
+    </center>    
+    <section id="highligits">
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/49a_345f6a56-aa62-4074-8544-b927fd02cfd2.jpg?v=1628348214&width=360"alt=""></a></div><br>
+            <div><a href="#">Rounded Sunglasses<br><br>$8.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/43a_ef9e32e2-9e1b-4c1b-a5f8-b12fe863f498.jpg?v=1628348187&width=360" alt=""></a></div><br>
+            <div><a href="#">Light Denim Jacket<br><br>$26.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/57a.jpg?v=1628348251&width=360"alt=""></a></div><br>
+            <div><a href="#">Linen-blend Shrt<br><br>$17.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/54a_19dcecf7-cb39-40ad-bbbe-4a658277a243.jpg?v=1628348241&width=360" alt=""></a></div><br>
+            <div><a href="#">Boxi Denim Jacket<br><br>$25.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="highligits1">
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/48a.jpg?v=1628348212&width=360"alt=""></a></div><br>
+            <div><a href="#">Rounded Sunglasses<br><br>$8.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/46a_5b99aa39-a3ef-4a1e-980a-72209a7810df.jpg?v=1628348207&width=360" alt=""></a></div><br>
+            <div><a href="#">Light Denim Jacket<br><br>$26.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/45a.jpg?v=1628348202&width=360"alt=""></a></div><br>
+            <div><a href="#">Linen-blend Shrt<br><br>$17.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/42a.jpg?v=1628348181&width=360" alt=""></a></div><br>
+            <div><a href="#">Boxi Denim Jacket<br><br>$25.00</a></div><br>
+            <div class="high">
+                <div class="high1"></div>&nbsp;&nbsp;
+                <div class="high2"></div>
+            </div>
+        </div>
+    </section><br><br><br>
+    <center>
+        <div class="shop">
+            <a href="#">Shop now</a>
+        </div>
+    </center>
+
+    <!--------------------------------------------------saying--------------------------------->
+    <center>
+        <div id="people">
+            <div>What People Are Saying</div>
+        </div>
+    </center>
+    
+
+    <section id="saying">
+        <div>
+            <div><img src="https://demo.minimog.co/cdn/shop/files/9_f772ec6c-6731-4331-b735-393702a08f03.jpg?v=1628328826" alt=""></div>
+        </div>
+        <div class="say1">
+            <div>Love it so much</div>
+            <div>"these are beautiful,well made & comfortable I bought them to<br>wear to work and &casually.I wore more immidetaly walking in the<br>city and has no problem.<br><br><b>Dean. D. us</div>
+        </div>
+
+        <div>
+            <div><img src="https://demo.minimog.co/cdn/shop/files/10_b1a619af-e746-4c01-ae8e-49d3aa8e4491.jpg?v=1628328826" alt=""></div>
+        </div>
+        <div>
+            <div>Love it so much</div>
+            <div>"these are beautiful,well made & comfortable I bought them to<br>wear to work and &casually.I wore more immidetaly walking in the<br>city and has no problem.<br><br><b>Dean. D. us</div>
+        </div>
+    </section>
+
+    <!--------------------------------------max---------------------------------------->
+    <center>
+        <div id="ma">
+            <div>Mix and Match</div>
+        </div>
+    </center>
+    <section id="max">
+        <div class="max1">
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/files/5_b7507f47-0486-46e7-8d7a-c2585244abf4.jpg?v=1628328825&width=720" alt=""></a></div>
+            <div>OFFICE</div>
+            <div>Time for new start? We're hiring</div>
+        </div>
+        <div class="max2">
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/26_92d39b96-63dc-4ed7-9a3c-cdbed5b98b41.jpg?v=1628348123&width=360" alt=""></a></div>
+            <div>OFFICE</div>
+            <div>Time for new start? We're hiring</div>
+        </div>
+        <div class="max3">
+            <div><a href="#"><img src="https://demo.minimog.co/cdn/shop/products/42a.jpg?v=1628348181&width=360" alt=""></a></div><br><br><br><br><br><br>
+            <div>OFFICE</div>
+            <div>Time for new start? We're hiring</div>
+        </div>
+    </section>
+
+
+
+
+
+    
+<section id="footer">
+    <div class="foot1">
+        <div class="foot1_a">Don't miss a<br>thing</div><br>
+        <div class="foot1_b">Enter your Email below to be the first to<br>Know about new collection and product<br>launches.</div><br>
+        <div foot1_c>
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" maxlength="40" placeholder="Enter your email">
+            <i class="fa-solid fa-angle-right"></i>
+        </div><br><br><br><br><br>
+        
+    </div>
+    <div class="foot2">
+        <div><a href="#"><b>SERVICES</b></a></div><br>
+        <div><a href="#">Privacy policy</a></div><br>
+        <div><a href="#">Refund policy</a></div><br>
+        <div><a href="#">Shipping & Return</a></div><br>
+        <div><a href="#">Term & conditions</a></div><br>
+    </div>
+    <div class="foot3">
+        <div><a href="#"><b>INFORMATION</b></a></div><br>
+        <div><a href="#">My account</a></div><br>
+        <div><a href="#">Cart</a></div><br>
+        <div><a href="#">Wishlist</a></div><br>
+        <div><a href="#">Prouct compare</a></div><br>
+    </div>
+    <div class="foot4">
+        <div><a href="#"><b>COMPANY</b></a></div><br>
+        <div>Find a location nearest you.</div><br>
+        <div><a href="#">See our Stores</a></div><br><br>
+        <div>+91 7805930416</div><br>
+        <div>adarshrewa46@gmail.com</div><br>
+    </div>
+</section>
+
+<!----------------------------footer logo---------------------------------->
+
+<section id="footer_logo">
+    <div class="footer_logo_a">
+        <a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+    </div>
+    <div>
+        @Minimog 2024
+    </div>
+    <div>
+
+    </div>
+</section>
+</body>
+</html>
