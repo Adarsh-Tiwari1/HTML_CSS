@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="mini.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    scroll-behavior: smooth;
+}
+.phone{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: fixed;
+    top: 500px;
+    right: 80px;
+    border-radius: 60px;
+    padding: 16px 16px 16px 16px;
+}
+.phone1{
+    background-color: white;
+    color: black;
+    font-size:25px;
+    position: fixed;
+    top: 600px;
+    right: 75px;
+    border-radius: 60px;
+    padding: 20px 20px 20px 20px;
+}
+.phone1 a{
+    color: black;
+}
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    overflow-x: hidden;
+}
+#nav ul{
+    list-style-type: none;
+    margin-right: 150px;
+    
+}
+#nav ul li a{
+    font-size: 25px;
+    color: black;
+    
+}
+#nav li ul{
+    display: flex;
+}
+#nav li ul li a{
+    padding: 15px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+#nav ul li a{
+    text-decoration: none;
+}
+.navLogo{
+    display: flex;
+}
+.navLogo li a i{
+    font-size: 18px;
+    padding: 15px;
+    
+}
+
+/*------------------------------------------hero-------------------------------------------------*/
+
+#hero{
+    background-image: url(https://skins.minimog.co/cdn/shop/files/ceramic_slide_01.jpg?v=1659925984&width=2000);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center; 
+    overflow-x: hidden;
+}
+#hero div{
+    margin-left: 22%;
+    padding: 20px;
+}
+.hero1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+.herobutton{
+    background-color: white;
+    padding: 15px 40px 15px 40px;
+    border-color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.herobutton:hover{
+    background-color: rgba(0, 0, 0, 0.732);
+    color: white;
+}
+
+.hero2{
+    color: white;
+    font-size: 25px;
+    /* padding-right: 100px; */
+}
+
+/*-----------------------------card--------------------------------*/
+.card{
+    margin-top: 100px;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.card1{
+    margin: 30px;
+    font-size: 50px;
+    overflow-x: hidden;
+}
+#card2{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+#card2 div div img{
+    width: 250px;
+}
+#card2 div div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#card3{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+#card3 div div img{
+    width: 250px;
+}
+#card3 div div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.cardbutton{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    overflow-x: hidden;
+}
+.cardbutton a{
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(0, 0, 0);
+    color:white ;
+}
+/* .cardbutton a:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+} */
+
+
+/*---------------------------------------popular------------------------------*/
+
+#popular{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    background-color: #e9e9e9;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+}
+#popular div div img{
+    width: 280px;
+}
+
+#popular div div img:hover{
+    scale: 1.2;
+    transition: all 2s;
+}
+
+
+.popular1 h1{
+   font-size: 35px;
+}
+.popular1 p{
+    font-size: 20px;
+}
+.popular2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+/*--------------------------------millions------------------------------------*/
+.million{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    overflow-x: hidden;
+}
+#million1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.576);
+    overflow-x: hidden;
+}
+
+/*---------------------------------card-----------------------------------------*/
+
+#card{
+  background-image: url(https://skins.minimog.co/cdn/shop/files/ceramic_cta.jpg?v=1659928770&width=3840);
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    /* padding: 150px; */
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.card2 a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+}
+.card2 a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/*-------------------------footer------------------------------------*/
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    overflow-x: hidden;
+}
+.footer_logo_a a{
+    color: rgb(0, 0, 0);
+}
+
+/* .foot1{
+
+} */
+.foot1_a{
+    font-size: 35px;
+}
+.foot1_b{
+    font-size: 18px;
+}
+.foot1_c{
+    font-size: 20px;
+    border: none;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+}
+.foot1_c input{
+    border: none;
+    outline:none;
+}
+.foot2 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.foot3 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.foot4 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#footer_logo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <logo class="phone">
+        <a href="https://in.linkedin.com/in/adarsh-tiwari-a548561a6"><i class="fa-solid fa-phone"></i></a>
+    </logo>
+    <logo class="phone1">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </logo>
+<nav id="nav">
+    <ul>
+        <li><a href="#"><b>CARAMIZ</b></a></li>
+    </ul>
+    <li>
+        <ul>
+            <li><a href="#"><b>HOME</b></a></li>
+            <li><a href="mini2.html"><b>SHOP</b></a></li>
+            <li><a href="#card2"><b>PRODUCTS</b></a></li>
+            <li><a href="zym.html"><b>PAGES</b></a></li>
+            <li><a href="zym.html"><b>FOXKIT</b></a></li>
+        </ul>
+    </li>
+    <ul class="navLogo">
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+        <li><a href="mini2.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+    </ul>
+</nav> 
+
+<!-------------------------------------------hero-->
+<section id="hero"><br><br><br><br><br><br><br><br>
+    
+    <div>
+        <div class="hero1">The Elegant Art of<br>Table Settings</div>
+        <div><a href="#" class="herobutton"><b>SHOP NOW</b></a></div><br><br><br>
+        <div class="hero2">*sign up for 10% of your first order. Valid within two days of signup.</div>
+    </div>
+
+</section>
+
+<!--------------------------card-------------------------------------->
+
+<center>
+    <div class="card">OUR BEST SELLERS</div>
+    <div class="card1">Designed with intergrity</div>
+</center>
+
+<section id="card2">
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/7a_efc03e5c-a396-475b-8981-bbc8abaa94ba.jpg?v=1659515396&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Breakfast Bowls<br><br>$70.00</a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/6a_6288f64a-96aa-477b-bb04-e16254507c69.jpg?v=1659515281&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Little Bowls<br><br>$45.00</a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/5a_aecd05d9-5cb5-41ab-b35f-826462235af7.jpg?v=1659515111&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Cereal Bowls<br><br>$70.00</a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/4a_c95d3cac-c123-4865-ad69-6ba9a3796e98.jpg?v=1659514835&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Nested Serving Bowls<br><br>$120.00</a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/3a.jpg?v=1659514749&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Pasta Bowls<br><br>$80.00</a></div>
+    </div>
+</section><br><br>
+
+<section id="card3">
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/15a_b337869b-5185-497c-8425-fc5f00e8b9e5.jpg?v=1659514611&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">Base Dinnerware Set</a></div><br>
+        <div><a href="#">$270.00 &nbsp;<del style="color: red;">$300.00</del></a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/14a_dee97b4e-afa6-416d-bf85-baf3856ce4d2.jpg?v=1659514345&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">Serving Platter Set</a></div><br>
+        <div><a href="#">$100.00 &nbsp;<del style="color: red;">$112.00</del></a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/13a_86a0a4b1-f204-4f6c-8c65-a1100c3c4226.jpg?v=1659514176&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Mugs</a></div><br>
+        <div><a href="#">$75.00 </a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/12a_beadcd6d-b14c-4ca8-9514-57a2a1f811ac.jpg?v=1659514079&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Cups</a></div><br>
+        <div><a href="#">$70.00</a></div>
+    </div>
+
+    <div>
+        <div>
+            <a href="#"><img src="https://skins.minimog.co/cdn/shop/products/11a_3e0898b9-086a-4f9f-97c4-9def18e40704.jpg?v=1659513877&width=360" alt=""></a>
+        </div><br>
+        <div><a href="#">The Carafe</a></div><br>
+        <div><a href="#">$50.00</a></div>
+    </div>
+</section>
+<div class="cardbutton">
+    <a href="#">SHOP NOW</a>
+</div>
+
+
+<!-------------------------------------popular-->
+
+<section id="popular"><br><br>
+    <div class="popular1">
+        <h1>Our Most<br>Popular<br>Style</h1>
+        <p>Luxe,lightweight,and<br>made with the perfect<br>blend of cashmere and<br>cotton.</p>
+        <div class="popular2">
+            <a href="#"> <i class="fa-solid fa-chevron-left"></i></a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+    </div>
+    <div>
+        <div><img src="https://skins.minimog.co/cdn/shop/files/ceramic_col_box_01.jpg?v=1659929072&width=360" alt=""></div><br><br>
+        <div style="font-size: 25px;">Bowls<sup>5</sup></div>
+    </div>
+
+    <div>
+        <div><img src="https://skins.minimog.co/cdn/shop/files/ceramic_col_box_02.jpg?v=1659929072&width=360" alt=""></div><br><br>
+        <div style="font-size: 25px;">Plates<sup>4</sup></div>
+    </div>
+
+    <div>
+        <div><img src="https://skins.minimog.co/cdn/shop/files/ceramic_col_box_03.jpg?v=1659929072&width=360" alt=""></div><br><br>
+        <div style="font-size: 25px;">Decration<sup>3</sup></div>
+    </div>
+
+    <div>
+        <div><img src="https://skins.minimog.co/cdn/shop/files/ceramic_col_box_04.jpg?v=1659929072&width=360" alt=""></div><br><br>
+        <div style="font-size: 25px;">The mugs<sup>2</sup></div>
+    </div>
+</section>
+
+<!--------------------------------million-------------------------------------->
+
+<div class="million">
+    <h1>"Millions of combinations, meaning you get a totally<br>unipue peace of furniture exactly the way you want it."</h1>
+</div>
+
+<section id="million1">
+    
+    <div>
+        <div><a href="#"><img src="https://skins.minimog.co/cdn/shop/files/2.webp?v=1659931992"alt=""> </a></div>
+    </div>
+    <div>
+        <div><a href="#"><img src="https://skins.minimog.co/cdn/shop/files/3.webp?v=1659931991"alt=""> </a></div>
+    </div>
+    <div>
+        <div><a href="#"><img src="https://skins.minimog.co/cdn/shop/files/1.webp?v=1659931991"alt=""> </a></div>
+    </div>
+    <div>
+        <div><a href="#"><img src="https://skins.minimog.co/cdn/shop/files/5.webp?v=1659931991"alt=""> </a></div>
+    </div>
+    <div>
+        <div><a href="#"><img src="https://skins.minimog.co/cdn/shop/files/6.webp?v=1659931991"alt=""> </a></div>
+    </div>
+</section>
+
+
+<!----------------------------------card-------------------------------------->
+
+<section id="card">
+    <div><br><br><br><br><br><br><br><br><br>
+       <div class="card1">Serving platter for one</div><br><br>
+       <div class="card2"><a href="#">SHOP NOW</a></div>
+    </div>
+    
+</section>
+
+
+<!-----------------------------footer-------------------------------->
+
+<section id="footer">
+    <div class="foot1">
+        <div class="foot1_a">Don't miss a<br>thing</div><br>
+        <div class="foot1_b">Enter your Email below to be the first to<br>Know about new collection and product<br>launches.</div><br>
+        <div class="foot1_c">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" maxlength="40" placeholder="Enter your email">
+            <i class="fa-solid fa-angle-right"></i>
+        </div><br><br><br><br><br>
+        
+    </div>
+    <div class="foot2">
+        <div><a href="#"><b>SERVICES</b></a></div><br>
+        <div><a href="#">Privacy policy</a></div><br>
+        <div><a href="#">Refund policy</a></div><br>
+        <div><a href="#">Shipping & Return</a></div><br>
+        <div><a href="#">Term & conditions</a></div><br>
+    </div>
+    <div class="foot3">
+        <div><a href="#"><b>INFORMATION</b></a></div><br>
+        <div><a href="#">My account</a></div><br>
+        <div><a href="#">Cart</a></div><br>
+        <div><a href="#">Wishlist</a></div><br>
+        <div><a href="#">Prouct compare</a></div><br>
+    </div>
+    <div class="foot4">
+        <div><a href="#"><b>COMPANY</b></a></div><br>
+        <div>Find a location nearest you.</div><br>
+        <div><a href="#">See our Stores</a></div><br><br>
+        <div>+91 7805930416</div><br>
+        <div>adarshrewa46@gmail.com</div><br>
+    </div>
+</section>
+
+<!----------------------------footer logo---------------------------------->
+
+<section id="footer_logo">
+    <div class="footer_logo_a">
+        <a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+    </div>
+    <div>
+        @Minimog 2024
+    </div>
+    <div>
+
+    </div>
+</section>
+</body>
+</html>
