@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="self.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/61/83/21/618321543a30fa9589c05e43c21b7ef0.jpg);
+    margin: 0px; 
+    list-style-type: none;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    overflow-x: hidden;
+    
+}
+.logo{
+    font-size: 40px;
+    /* margin-right: 300px; */
+    color: cornsilk;
+}
+
+#logo:hover{
+    color: peru;
+}
+.nav_bar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav_bar li i{
+    color: rgb(244, 6, 6);
+    margin-left: 150px;
+}
+.nav_bar li a:hover{
+    color: red;
+    border: 2px solid pink;
+}
+
+/*
+------------------------------------hero------------------------------
+*/
+
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    overflow-x: hidden;
+   
+      
+}
+.font{
+    font-size: 30px;
+}
+#hero div a{
+    text-decoration: none;
+}
+#hero div img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    
+   
+    
+}
+.cv{
+    background-color: beige;
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    
+
+}
+.skill{
+    color: rgb(91, 19, 6);
+    font-size: 25px;
+}
+.font{
+    font-size: 25px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.cv:hover{
+    background-color:pink;
+}
+.exp{
+    border: 2px solid rgb(56, 0, 224);
+    width: 150px;
+    background-color: pink;
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 830px;
+    border-radius: 50px;
+    overflow-x: hidden;
+}
+.exp_2{
+    display: flex;
+    border: 2px solid rgba(138, 49, 49, 0.79);
+    width: 140px;
+    border-radius: 70px;
+    position: absolute;
+    top: 430px;
+    left: 1250px;
+    background-color: bisque;
+    overflow-x: hidden;
+}
+
+/*
+  ---------------------------------what---------------------
+*/
+
+#what{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-x: hidden;
+    
+}
+.what_1{
+    background-color: rgb(190, 175, 175);
+    color: rgb(22, 20, 20);
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+  
+}
+.what_2{
+    background-color: rgb(190, 175, 175);
+    color: rgb(22, 20, 20);
+    border: 1px solid black;
+    padding:  20px 20px 20px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.what_3{
+    background-color: rgb(190, 175, 175);
+    color: rgb(22, 20, 20);
+    border: 1px solid black;
+    padding:  20px 20px 20px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.hr{
+    width: 100px;
+    border-color: red;
+}
+.skill_1{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+.skill_2{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+
+/*
+
+-----------------------portfolio------------------------------
+*/
+
+.port{
+    font-size: 30px;
+}
+.i{
+    font-size: 20px;
+    color: green;
+}
+.nab{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 400px;
+    padding-right: 400px;
+    overflow-x: hidden;
+}
+.nab a{
+    text-decoration: none;
+}
+.nab:hover{
+    background-color: white;
+    color: pink;
+}
+.pho{
+    border: 1px solid rgb(6, 236, 21);
+    width: 300px;
+    padding: 10px 40px 10px 40px;
+    
+}
+.see{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.pho_2{
+    border: 1px solid rgb(231, 14, 14);
+    width: 300px;
+    padding: 10px 40px 10px 40px;
+    
+}
+.pho_3{
+    border: 1px solid rgb(43, 13, 218);
+    width: 300px;
+    padding: 10px 40px 10px 40px;
+    
+}
+#fa{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+.ph{
+    border: 1px solid blue;
+    border-radius: 40px;
+}
+.but{
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(81, 137, 118, 0.683);
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: pink;
+}
+.but:hover{
+    color: red;
+}
+.re{
+    font-size: 30px;
+}
+.m{
+    font-size: 20px;
+    color: green;
+}
+.ed{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.526);
+    overflow-x: hidden;
+}
+.fo{
+    font-size: 23px;
+}
+.set{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+.d{
+    font-size: 20px;
+}
+.ex{
+    padding-left: 300px;
+    color: rgb(10, 88, 156);
+}
+.ed{
+    padding-left: 100px;
+}
+.pri{
+    font-size: 25px;
+}
+.my{
+    font-size: 18px;
+    color: green;
+}
+
+/*------------------------------------------------price---------------------------------------------*/
+
+.p{
+    border: 1px solid blue;
+    padding: 50px 100px 50px 100px;   
+}
+.size{
+    font-size: 23px;
+}
+.bu{
+    padding: 7px 60px 7px 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: green;
+}
+.a{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+.con{
+    font-size: 25px;
+}
+.le{
+    font-size: 15px;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ta{
+    font-size: 25px;
+}
+.ta a{
+    text-decoration: none;
+}
+
+/*----------------------contact-------------------------------------------*/
+.cont{
+    background-color: azure;
+    padding: 20px;
+    overflow-x: hidden;
+}
+.cont form input{
+    padding: 8px;
+}
+.lo{
+    display: flex;
+   margin-left: 600px;
+   overflow-x: hidden;
+}
+
+
+/*
+1. not response
+2.nav bar
+3.scroll no connect
+4.accept and term conditatin ko check karna.
+
+
+    </style>
+</head>
+<body>
+    <ul class="nav_bar">
+        <li style="margin-right: 200px;">
+            <a class="the" href="#">The</a><a href="#"><b class="logo">Caption</b></a>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#what">About</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><i class="fa-solid fa-phone"></i></li>
+        <li><a href="#">+91 7805930416</a></li>
+    </ul>
+
+    <!-----------------------------------------------  Hero  ------------------------------------------>
+    <section id="hero">
+        <div >
+            <div class="font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi,i am <b style="color: rgba(18, 18, 219, 0.764);"> Adarsh Tiwari</b></div> <br>
+            <div>i am fronted developer i can provider clean code and pixel perfect design<br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i also make website more & more interactive with web animations.
+            </div> <br> 
+            <div class="font">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> &nbsp;
+                <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a> &nbsp;
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a> 
+            </div> &nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <a class="cv" href="https://i.pinimg.com/564x/2e/96/27/2e96273caa028f56e256e22982f7b11e.jpg">Download CV</a> &nbsp&nbsp&nbsp&nbsp&nbsp <a class="skill" href="#">My Skills</a>
+            
+            </div>
+            
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/564x/6e/a9/d3/6ea9d3a86db7a28dce962115aaf815db.jpg" alt="" height="500px" width="400px">
+        </div>
+    </section>
+    <!-----------------------experience------------------->
+    <div class="exp">
+        <div style="font-size: 30px; align-items: center; justify-content: space-evenly; padding-top: 8px;">10+</div>
+        <div style="padding: 10px;">Years of experience</div>
+    </div>
+    <div class="exp_2">
+        <div style="font-size: 30px; padding-top: 10px;">330</div>
+        <div style="padding: 10px;">Complete<br> Project</div>
+    </div>
+
+    <!---------------------------------------skill---------------------------------------->
+    
+        <div>
+           <center>
+               <div><h1>What i Do</h1></div>
+               <div><i style="color: green; font-size: 20px;">My Services</i></div>
+           </center>
+        </div> <br>
+
+        <section id="what">
+            <div class="what_1">
+                <div style="font-size: 15px;">Web Development</div><br><br>
+                <div style="font-size: 30px;">Web Design & Logo</div> <br>
+                <div>web designers craft the overall vision & plan for<br>
+                     a website alyout. Professional logo <br>development: Business,company,or Personal.
+                </div>            
+            </div> <br><br>
+
+            <div class="what_2">
+                <div style="font-size: 15px;">Apps Development</div><br><br>
+                <div style="font-size: 30px;">iOS & Android</div> <br>
+                <div>web designers craft the overall vision & plan for<br>
+                     a website alyout. Professional logo <br>development: Business,company,or Personal.   
+                </div>          
+            </div> <br><br>
+
+            <div class="what_3">
+                <div style="font-size: 15px;">Games Development</div> <br>
+                <div style="font-size: 30px;">Unity & Unreal Engine</div> <br>
+                <div>web designers craft the overall vision & plan for<br>
+                     a website alyout. Professional logo <br>development: Business,company,or Personal.
+                </div>            
+            </div> 
+        </section> <br><br>
+        <hr class="hr"> <br><br><br><br>
+
+
+  <!---------------------------------------Proressional skill---------------------------------->
+    
+
+  <div>
+       <center>
+            <div style="font-size: 30px;">PROFESSIONAL SIILLS</div> <br>
+            <div><i style="font-size: 20px; color: rgb(59, 51, 174);">my talent </i></div>
+       </center>
+    </div> <br><br><br><br>
+   <section class="skill_1">
+        <div >
+            <div style="font-size: 21px;">PHP<i style="padding-left: 220px;"></i>85%</div><br>
+            <div>The PHP development team announces the<br> The PHP development team announces the<br> immediate availability of PHP 8.3.4.</div> <br>
+                <progress id="progress" max="100" value="85"></progress>85%        
+        </div>
+
+        <div >
+            <div style="font-size: 21px;">JavaScript<i style="padding-left: 220px;"></i>75%</div><br>
+            <div>The PHP development team announces the<br> The PHP development team announces the<br> immediate availability of PHP 8.3.4.</div> <br>
+                <progress id="progress" max="100" value="75"></progress>75%        
+        </div>
+
+        <div >
+            <div style="font-size: 21px;">WordPress<i style="padding-left: 220px;"></i>90%</div><br>
+            <div>The PHP development team announces the<br> The PHP development team announces the<br> immediate availability of PHP 8.3.4.</div> <br>
+                <progress id="progress" max="100" value="90"></progress>90%        
+        </div>
+    </section>
+
+    <section class="skill_2">
+        <div >
+            <div style="font-size: 21px;">Python<i style="padding-left: 220px;"></i>75%</div><br>
+            <div>The PHP development team announces the<br> The PHP development team announces the<br> immediate availability of PHP 8.3.4.</div> <br>
+                <progress id="progress" max="100" value="75"></progress>75%        
+        </div>
+
+        <div >
+            <div style="font-size: 21px;">React<i style="padding-left: 220px;"></i>70%</div><br>
+            <div>The PHP development team announces the<br> The PHP development team announces the<br> immediate availability of PHP 8.3.4.</div> <br>
+                <progress id="progress" max="100" value="70"></progress>70%        
+        </div>
+
+        <div >
+            <div style="font-size: 21px;">Java<i style="padding-left: 220px;"></i>80%</div><br>
+            <div>The PHP development team announces the<br> The PHP development team announces the<br> immediate availability of PHP 8.3.4.</div> <br>
+                <progress id="progress" max="100" value="80"></progress>80%        
+        </div>
+    </section> <br><br><br>
+
+     
+    <center>
+          <div>
+               <div class="port">PORTFOLIO</div> <br>
+               <div class="i"><i>my cases</i></div>
+           </div>
+    </center> <br><br>
+ 
+    
+    <ul class="nab">
+        <li><a href="#">ALL</a></li>
+        <li><a href="#">UI UX DESIGN</a></li>
+        <li><a href="#">PHOTOGRAPHY</a></li>
+        <li><a href="#">DEVELOPMENT</a></li>
+        <li><a href="#">BRANDIN</a></li>
+    </ul> <br<br><br><br>>
+
+    <section id="fa">
+        <div>
+            <div class="pho">
+                <img class="ph" src="https://i.pinimg.com/564x/1f/af/fa/1faffa6eeff539a9ca13b4d9af4c4018.jpg" alt="" height="300px" width="300px"><br><br>
+                <div style="color: rgb(255, 60, 0);">BRANDING, PHOTOGRAPHY</div> <br>
+                <div style="font-size: 25px;">Zeero</div><br>
+                <div>Photography is the art, applicatio<br>recording light, either electronically by <br>means of an image sensor, or chemically<br> such as photographic film.</div><br><br>
+                <div><a class="see" href="#">See Project -></a></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="pho_2">
+                <img class="ph" src="https://i.pinimg.com/564x/ee/8c/bc/ee8cbc307543c2cd3e1e7d07bbfedbb3.jpg" alt="" height="300px" width="300px"><br><br>
+                <div style="color: rgb(255, 60, 0);">BRANDING, UI UX DESIGN</div> <br>
+                <div style="font-size: 25px;">Gooir</div><br>
+                <div>Photography is the art, applicatio<br>recording light, either electronically by <br>means of an image sensor, or chemically<br> such as photographic film.</div><br><br>
+                <div><a class="see" href="#">See Project -></a></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="pho_3">
+                <img class="ph" src="https://i.pinimg.com/564x/e0/95/07/e09507eca9b4348d3dff6da70f589a86.jpg" alt="" height="300px" width="300px"><br><br>
+                <div style="color: rgb(255, 60, 0);">DEVELOPMENT,UI UX DESIGN</div> <br>
+                <div style="font-size: 25px;">Explore</div><br>
+                <div>Photography is the art, applicatio<br>recording light, either electronically by <br>means of an image sensor, or chemically<br> such as photographic film.</div><br><br>
+                <div><a class="see" href="#">See Project -></a></div>
+            </div>
+        </div>
+    </section> <br><br>
+
+
+    <section id="fa">
+        <div>
+            <div class="pho">
+                <img class="ph" src="https://i.pinimg.com/564x/f0/de/6e/f0de6e28164f6494d70558e8304b14e9.jpg" alt="" height="300px" width="300px"><br><br>
+                <div style="color: rgb(255, 60, 0);">BRANDING, PHOTOGRAPHY</div> <br>
+                <div style="font-size: 25px;">Mazar</div><br>
+                <div>Photography is the art, applicatio<br>recording light, either electronically by <br>means of an image sensor, or chemically<br> such as photographic film.</div><br><br>
+                <div><a class="see" href="#">See Project -></a></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="pho_2">
+                <img class="ph" src="https://i.pinimg.com/564x/fa/ee/91/faee91c41453d93f505bef323c8e17c4.jpg" alt="" height="300px" width="300px"><br><br>
+                <div style="color: rgb(255, 60, 0);">BRANDING, UI UX DESIGN</div> <br>
+                <div style="font-size: 25px;">Stay Fit</div><br>
+                <div>Photography is the art, applicatio<br>recording light, either electronically by <br>means of an image sensor, or chemically<br> such as photographic film.</div><br><br>
+                <div><a class="see" href="#">See Project -></a></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="pho_3">
+                <img class="ph" src="https://i.pinimg.com/564x/e8/80/a5/e880a5c2a9b2f1a5e272f2f974594a00.jpg" alt="" height="300px" width="300px"><br><br>
+                <div style="color: rgb(255, 60, 0);">DEVELOPMENT,UI UX DESIGN</div> <br>
+                <div style="font-size: 25px;">Kana</div><br>
+                <div>Photography is the art, applicatio<br>recording light, either electronically by <br>means of an image sensor, or chemically<br> such as photographic film.</div><br><br>
+                <div><a class="see" href="#">See Project -></a></div>
+            </div>
+        </div>
+    </section> <br><br><br>
+          <center>
+               <a href="#"><button class="but">VIEW MORE</button></a>
+          </center> <br><br>
+
+
+          <!--------------------------resume--------------------------------->
+          
+            <center>
+                <div class="re">RESUME</div>
+                <div class="m">my story</div>
+           </center> <br><br><br>
+
+           <hr>
+            <div class="ed">
+                <div class="ed">Education</div>
+                <div class="ex">experience</div> <br><br>
+            </div>
+            <hr>
+           <section class="set">
+                <div class="fo">
+                      <div>coderHouse Course</div> <br>
+                       <details>
+                          <summary>Backend Programming &nbsp;&nbsp;&nbsp; 2023-2024</summary><br>
+                          <p>my backend programming is the best<br> programming and ia am the best <br>proogrmame </p>
+                       </details>
+                       <details>
+                         <summary>IT Future</summary>
+                         <p>my it feature is a great.</p>
+                       </details>
+                </div>
+                <div class="d">
+                    <div>UI Head and Manager</div> <br><br>
+                    <details>
+                        <summary><i>Soft tech Inc.  &nbsp;&nbsp;&nbsp; 2023-2024</i></summary>
+                        <p>my soft tack is very strong <br>and me and my strecture it sthe<br> best and he is the<br></p>
+                    </details>
+                    <div>Plugins developer</div>
+                </div>
+            </section>
+            <hr>
+
+            <!----------------------------------Pricing------------------------------------------>
+           <div> 
+                <center><br>
+                  <div class="pri">PRICING</div><br>
+                  <div class="my"><i>my price board</i></div>
+               </center>
+            </div>  <br><br><br>
+
+            <section class="a">
+                <div class="p">
+                    <div>MOURLEY BASIC</div> <br><br>
+                    <div class="size">39 $ Hour</div><br>
+                    <div>is the basic of a strecture<br> and hte and phir se ho<br>ho jata hia ke yr<br>ky aho rha hia and<br></div><br><br>
+                    <div>Brand Design</div><br>
+                    <div>Web Development</div><br><br>
+                    <a href="#"><button class="bu">Start Project</button></a>
+                </div>
+                  <fieldset>
+                    <legend style="color: red; font-size: 21px;">POPULAR</legend>
+                <div class="p">
+                    <div>FREELANCING</div> <br><br>
+                    <div class="size">259 $ Week</div><br>
+                    <div>is the basic of a strecture<br> and hte and phir se ho<br>ho jata hia ke yr<br>ky aho rha hia and<br></div><br><br>
+                    <div>Brand Design</div><br>
+                    <div></i>Web Development</div><br>
+                    <div>Advertising</div><br><br>
+                    <a href="#"><button class="bu">Start Project</button></a>
+                </fieldset>
+                </div>
+
+                <div class="p">
+                    <div>MOURLEY BASIC</div> <br><br>
+                    <div class="size">1.249 $ Month</div><br>
+                    <div>is the basic of a strecture<br> and hte and phir se ho<br>ho jata hia ke yr<br>ky aho rha hia and<br></div><br><br>
+                    <div>Brand Design</div><br>
+                    <div></i>Web Development</div><br>
+                    <div>Advertising</div><br>
+                    <div>Photography</div><br><br>
+                    <a href="#"><button class="bu">Start Project</button></a>
+                </div>
+            </section> <br><br>
+
+            <!-----------------contact--------------------------->
+
+            <center>
+                <div class="con">CONTACT ME</div>
+                <div class="le">Lets <i>Talk about Ideas</i></div>
+            </center>
+
+
+            <section>
+                <center>
+                <div class="cont">
+                    <form>
+                        <i class="fa-solid fa-user"></i>&nbsp;:: <input type="text" required maxlength="30" placeholder="Enter your name"><br>
+                        <i class="fa-solid fa-location-dot"></i>&nbsp;:: <input type="text" required maxlength="100" placeholder="Enter your Address"><br>
+                        <i class="fa-solid fa-envelope"></i>&nbsp;:: <input type="email" required maxlength="30" placeholder="Enter your email"><br> 
+                        <i class="fa-solid fa-phone"></i>&nbsp;:: <input type="phone" required maxlength="10" placeholder="Enter your number"><br>
+                    </form>            
+                </div>
+            </center>
+            </section>
+
+            <div>
+                <div class="lo">
+                    <input type="radio"></i><b>Accept the terms and conditions</b>&nbsp;&nbsp;&nbsp;
+                    <button>SEND MESSAGE</button>
+                </div>
+                
+            </div>
+
+
+           <center><h2>www.DownloadNewTheams.com</h2></center>
+            <hr>
+            <section class="last">
+                <div>
+                    <div class="ta"><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i>&nbsp;</a><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>&nbsp;</a><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+                <div>
+                    <div>@2022 LUIQUE.ALL RIGHT RESERVED</div>
+                </div>
+                <div>
+                    <div>DEVELOPED BY BSLTHEMES</div>
+                </div>
+            </section>
+</body>
+</html>
