@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="zym.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+    *{ 
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font: weight 500px;;
+  font-style: normal;
+  margin-top: 0px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    overflow-x: hidden;
+    background-color: black;
+}
+#nav ul li a sup{
+    color: yellow;
+    font-size: 20px;
+    padding: 5px;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#nav ul li a:hover{
+    border-bottom: 3px solid red;
+    transition: all 1s;
+}
+#nav ul li{
+    list-style-type: none;
+}
+#nav li ul{
+    display: flex;
+}
+#nav ul {
+    display: flex;
+}
+#nav ul li a{
+    margin: 17px;
+}
+
+/*------------------------------------------hero---------------------------------------------------------*/
+#hero{
+    background-image: url(https://next.minimog.co/cdn/shop/files/hero.jpg?v=1636359524&width=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+#hero div div{
+margin-left: 5%;
+color: white;
+}
+.hero_but a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    color: black;
+}
+.hero_but a:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+
+/*--------------------------------work-------------------------------*/
+
+#work{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.work1{
+    background-image: url(https://next.minimog.co/cdn/shop/files/img-1_faa93dd9-32c0-4397-977d-f1477734cf93.jpg?v=1636360774&width=533);
+    width: 35%;
+    height: 60vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    color: white;
+}
+.work1:hover{
+    scale: 1.2;
+    transition: all 1s;
+}
+.work1 div{
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.work2{
+    background-image: url(https://next.minimog.co/cdn/shop/files/img-2_eb341fce-ac26-45e1-b3bb-b9df20a3cd6a.jpg?v=1636360791&width=533);
+    width: 35%;
+    height: 60vh;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+}
+.work2:hover{
+    scale: 1.2;
+    transition: all 1s;
+}
+.work2 div{
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.work3{
+    background-image: url(https://next.minimog.co/cdn/shop/files/img-3.jpg?v=1636360809&width=36);
+    width: 35%;
+    height: 60vh;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+}
+.work3:hover{
+    scale: 1.2;
+    transition: all 1s;
+}
+.work3 div{
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+/*------------------------------seller------------------------------*/
+#seller{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: black;
+    padding-bottom: 200px;
+}
+#seller div a img{
+    width: 230px;
+}
+.seller1{
+    color: yellow;
+}
+.seller_but a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    color: black;
+}
+
+/*-----------------------------------------new-------------------------------------*/
+#naw{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.new1{
+    color: yellow;
+    text-align: center;
+}
+.new2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.new3{
+    color: white;
+    text-align: center;
+}
+.new_but a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    color: black;
+}
+.new_but{
+    text-align: center;
+}
+
+/*------------------------------------------------hot-------------------*/
+#hot{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: black;
+    padding-bottom: 200px;
+}
+.hot1 div{
+    color: white;
+}
+#hot div div img{
+    width: 200px;
+}
+
+/*--------------------------girl------------------------------------------*/
+#girl{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.gir1{
+    color: yellow;
+    text-align: center;
+}
+.gir2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.gir3{
+    color: white;
+    text-align: center;
+}
+.girl_but a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    color: black;
+}
+.girl_but{
+    text-align: center;
+}
+
+/*----------------------------------footer_hero---------------------------------*/
+
+#footer_hero{
+    background-image: url(https://www.thebxngclub.com/wp-content/uploads/2022/06/Untitled-design-12-2.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_hero1{
+    color: rgb(0, 0, 0);
+    padding-left: 200px;
+    font-size: 35px;
+}
+.footer_hero2{
+    color: rgb(0, 0, 0);
+    padding-left: 600px;
+    font-size: 25px;
+}
+.footer_hero_but{
+    padding-left: 600px;
+}
+.footer_hero_but a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    color: black;
+}
+
+/*---------------------------------footer**************************/
+
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    background-color: black;
+    overflow-x: hidden;
+}
+input[type="email"]{
+    height: 30px;
+    width: 150px;
+}
+.footer_logo_a a{
+    color: rgb(220, 220, 220);
+}
+
+/* .foot1{
+
+} */
+.foot1_a{
+    font-size: 35px;
+}
+.foot1_b{
+    font-size: 18px;
+}
+.foot1_c{
+    font-size: 20px;
+    border: none;
+    border: 1px solid rgb(229, 227, 227);
+    padding: 10px 20px 10px 20px;
+}
+.foot1_c input{
+    border: none;
+    outline:none;
+}
+.foot2 div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.foot3 div a{
+    text-decoration: none;
+    color: rgb(244, 240, 240);
+    font-size: 18px;
+}
+.foot4 div a{
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+    font-size: 20px;
+}
+
+#footer_logo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+
+
+    </style>
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a href="#">SONAURI<sup >*</sup></a></li>
+        </ul>
+        <li>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Level</a></li>
+                <li><a href="#">Day</a></li>
+            </ul>
+        </li>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-turn-up"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-------------------------------------------hero------------------------------------------------------>
+    <section id="hero"><br><br><br><br><br><br><br><br>
+        <div>
+            <div style="font-size: 48px;"><b>TIME YOUR BRING<br>YOUR A GAME</b></div>
+            <div>RAISE YOUR CONFIDENCE</div><br><br>
+            <div class="hero_but"><a href="#">BOOK NOW</a></div>
+        </div>
+    </section>
+
+    <!--------------------------work----------------------------------->
+    <section id="work">
+      <div class="work1">
+        <div><h1>PROTEIN</h1></div>
+      </div>
+      <div class="work2">
+        <div><h1>PRE-WORKOUT</h1></div>
+      </div>
+      <div class="work2">
+        <div><h1>HYDRATION</h1></div>
+      </div>
+    </section>
+
+    <!------------------------------------seller------------------------------------>
+
+    <section id="seller">
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$52.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$100.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$81.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$78.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$65.50</div>
+        </div>
+        <div class="seller_but"><a href="#">SHOP NOW</a></div>
+    </section><br><br>
+
+    <!--------------------------------new----------------------------------->
+    <section id="naw">
+        <div>
+            <div><img src="https://next.minimog.co/cdn/shop/files/img-with-text-1.png?v=1636363284&width=720" alt=""></div>
+        </div>
+        <div>
+            <div class="new1">NEW IN</div><br>
+            <div class="new2"><b>PUSH YOUR<br>LIMIT FORWARD</b></div><br>
+            <div class="new3">Train with the best experts in body bulding field.Your results will<br>
+                 speak to themslaves.Trt the latest execing trends, innovative<br> equipment
+                 and spaecial innovance.
+            </div><br><br><br>
+            <div class="new_but"><a href="#">SHOP NOW</a></div>
+        </div>
+    </section>
+
+    <!------------------------------hot------------------------------------->
+    <section id="hot">
+        <div class="hot1">
+            <div>HOT THIS WEEK</div>
+        </div>
+    
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$100.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$81.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$78.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$65.50</div>
+        </div>
+        <div>
+            <div><a href="#"><img src="https://next.minimog.co/cdn/shop/products/product-image_1_22dd3fc5-841a-44a6-b358-255b5d29a32d.jpg?v=1636426075&width=360" alt=""></a></div>
+            <div>WHEY PROTEIN UNFLAVOURED</div>
+            <div class="seller1">$65.50</div>
+        </div>
+    </section>
+
+    <!-------------------------------girl---------------------------------->
+    <section id="girl">
+        <div>
+            <div class="gir1">COLLECTION</div><br>
+            <div class="gir2"><b>UNIVERSITY - STUDIES<BR>FORMULATED</b></div><br>
+            <div class="gir3">Train with the best experts and how man,your results will<br>
+                 speak to themsle and the how may at aos al  and t many or,<br>
+                 specila offer woe huo.
+            </div><br><br>
+            <div class="girl_but"><a href="#">SHOP NOW</a></div>
+        </div>
+        <div><img src="https://next.minimog.co/cdn/shop/files/img-with-text-2.png?v=1636365340&width=720" alt=""></div>
+    </section>
+
+    <!------------------------footer_hero------------------------------------->
+
+    <section id="footer_hero"><br><br><br><br><br><br><br><br>
+        <div>
+            <div class="footer_hero1"><b>UP TO 80%<br>SALE OFF</b></div><br>
+            <div class="footer_hero2"><b>ONLY FOR ONLINE EXCLUSIV</b></div><br><br><br><br><br><br><br>
+            <div class="footer_hero_but"><a href="#">SHOP NOW</a></div>
+        </div>
+    </section>
+
+    <!----------------------------footer------------------------------->
+
+
+
+    
+<section id="footer">
+    <div class="foot1">
+        <div class="foot1_a">Don't miss a<br>thing</div><br>
+        <div class="foot1_b">Enter your Email below to be the first to<br>Know about new collection and product<br>launches.</div><br>
+        <div class="foot1_c">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" maxlength="40" placeholder="Enter your email">
+            <i class="fa-solid fa-angle-right"></i>
+        </div><br><br><br><br><br>
+        
+    </div>
+    <div class="foot2">
+        <div><a href="#"><b>SERVICES</b></a></div><br>
+        <div><a href="#">Privacy policy</a></div><br>
+        <div><a href="#">Refund policy</a></div><br>
+        <div><a href="#">Shipping & Return</a></div><br>
+        <div><a href="#">Term & conditions</a></div><br>
+    </div>
+    <div class="foot3">
+        <div><a href="#"><b>INFORMATION</b></a></div><br>
+        <div><a href="#">My account</a></div><br>
+        <div><a href="#">Cart</a></div><br>
+        <div><a href="#">Wishlist</a></div><br>
+        <div><a href="#">Prouct compare</a></div><br>
+    </div>
+    <div class="foot4">
+        <div><a href="#"><b>COMPANY</b></a></div><br>
+        <div>Find a location nearest you.</div><br>
+        <div><a href="#">See our Stores</a></div><br><br>
+        <div>+91 7805930416</div><br>
+        <div>adarshrewa46@gmail.com</div><br>
+    </div>
+</section>
+
+<!----------------------------footer logo---------------------------------->
+
+<section id="footer_logo">
+    <div class="footer_logo_a">
+        <a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+    </div>
+    <div>
+        @Minimog 2024
+    </div>
+    <div>
+
+    </div>
+</section>
+
+
+</body>
+</html>
