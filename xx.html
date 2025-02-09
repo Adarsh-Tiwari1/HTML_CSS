@@ -1,0 +1,515 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Navodaya Vidyalaya Samiti
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+        .header img {
+            height: 80px;
+        }
+        .header .title {
+            text-align: center;
+        }
+        .header .title h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #003366;
+        }
+        .header .title h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #003366;
+        }
+        .header .title p {
+            margin: 0;
+            font-size: 14px;
+            color: #006400;
+        }
+        .nav {
+            background-color: #003366;
+            padding: 10px 0;
+        }
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul li {
+            margin: 0 15px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+        .nav ul li a:hover, .nav ul li a.active {
+            background-color: #d4a017;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .breadcrumb {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .breadcrumb a {
+            color: #003366;
+            text-decoration: none;
+        }
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .about-section .text {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .about-section .text h3 {
+            color: #003366;
+            margin-top: 0;
+        }
+        .about-section .text p {
+            color: #333;
+            line-height: 1.6;
+        }
+        .about-section .image {
+            flex: 1;
+        }
+        .about-section .image img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .details {
+            margin-top: 20px;
+        }
+        .details h3 {
+            color: #003366;
+        }
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+            }
+            .about-section .text {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        ul li .u{
+    font-size: 20px;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.about{display: none;}
+
+ul li:hover .about{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.about ul{
+    margin: 0;
+    padding: 0;
+}
+.about ul li{
+    display: block;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.administration{display: none;}
+
+ul li:hover .administration{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.administration ul{
+    margin: 0;
+    padding: 0;
+}
+.administration ul li{
+    display: block;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.academic{display: none;}
+
+ul li:hover .academic{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.academic ul{
+    margin: 0;
+    padding: 0;
+}
+.academic ul li{
+    display: block;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.activities{display: none;}
+
+ul li:hover .activities{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.activities ul{
+    margin: 0;
+    padding: 0;
+}
+.activities ul li{
+    display: block;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.exam{display: none;}
+
+ul li:hover .exam{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.exam ul{
+    margin: 0;
+    padding: 0;
+}
+.exam ul li{
+    display: block;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.tender{display: none;}
+
+ul li:hover .tender{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.tender ul{
+    margin: 0;
+    padding: 0;
+}
+.tender ul li{
+    display: block;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: green;
+    color: white;
+}
+.contact{display: none;}
+
+ul li:hover .contact{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+}
+.contact ul{
+    margin: 0;
+    padding: 0;
+}
+.contact ul li{
+    display: block;
+}
+
+
+  </style>
+ </head>
+ <body>
+  <header class="header">
+   <img alt="Navodaya Vidyalaya Samiti Logo" src="https://navodaya.gov.in/nvs/system/modules/NVS.WEB/resources/images/nvs_logo_color1.png"/>
+   <div class="title">
+    <h1>
+     Navodaya Vidyalaya Samiti
+    </h1>
+    <p>
+     ( An Autonomous Body Under Ministry of Education ) Government Of India
+    </p>
+    <h2>
+     Jawahar Navodaya Vidyalaya, Ratibad, Bhopal (Madhya Pradesh)
+    </h2>
+   </div>
+   <img alt="Swachh Bharat Logo" src="https://navodaya.gov.in/nvs/system/modules/NVS.WEB/resources/images/swach2.png"/>
+  </header>
+  <nav class="nav">
+   <ul>
+    <li>
+     <a href="#">Home</a>
+    </li>
+    <li>
+     <a class="active" href="#">About Us</a>
+     <div class="about">
+        <ul>
+            <li>Commissioner's Message</li>
+            <li>Dy. Commissioner's Message</li>
+            <li>Principal's Desk</li>
+            <li>Vision & Mission</li>
+            <li>About JNV</li>
+            <li>Staff</li>
+            <li>Success Stories</li>
+        </ul>
+    </div>
+    </li>
+    <li>
+     <a href="#">Administration</a>
+     <div class="administration">
+        <ul>
+            <li>Vidyalaya Management Committee</li>
+            <li>Vidyalaya Advisory Committee</li>
+            <li>Vidyalaya Level Committees</li>
+            <li>Student Council Members</li>
+            <li>Successive Principals</li>
+            <li>Successive Vice Principals</li>
+        </ul>
+    </div>
+    </li>
+    <li>
+     <a href="#">Admission</a>
+     <div class="academic">
+        <ul>
+            <li>Enrolment Policy</li>
+            <ul>JNVST Statistics</ul>
+            <ul>Admission Notification</ul>
+        </ul>
+    </div>
+    </li>
+    <li>
+     <a href="#">
+      Academics
+     </a>
+    </li>
+    <li>
+     <a href="#">Activities</a>
+     <div class="activities">
+        <ul>
+            <li>Student Strength</li>
+            <li>Academic Schedule</li>
+            <li>Migration</li>
+            <li>ICT in Education</li>
+            <li>Facilities</li>
+            <li>Annual Calendar</li>
+            <li>Class Teacher</li>
+            <li>House Masters/ Mistress</li>
+            <li>Career Guidance</li>
+        </ul>
+    </div>
+    </li>
+    <li>
+     <a href="#">Exams And Results</a>
+     <div class="exam">
+        <ul>
+            <li>Class Wise Syllabus</li>
+            <li>Learning Lesources</li>
+            <li>Sample papers</li>
+            <li>Project and Assignments</li>
+            <li>Results</li>
+            <li>Notification</li>
+        </ul>
+    </div>
+    </li>
+    <li>
+     <a href="#">Tender</a>
+     <div class="tender">
+        <ul>
+            <li>Tender Notice</li>
+            <li>Terms & Conditions</li>
+            <li>Tender Forms</li>
+            <li>Approved Tender Tates</li>
+        </ul>
+    </div>
+    </li>
+    <li>
+     <a href="#">Contact Us</a>
+     <div class="contact">
+        <ul>
+            <li>JNV</li>
+            <li>Regional Officer</li>
+            <li>NVS Headquarter</li>
+        </ul>
+    </div>
+    </li>
+   </ul>
+  </nav>
+  <div class="content">
+   <div class="breadcrumb">
+    <a href="#">
+     About Us
+    </a>
+    /
+    <a href="#">
+     About JNV
+    </a>
+   </div>
+   <div class="about-section">
+    <div class="text">
+     <h3>
+      About JNV Bhopal
+     </h3>
+     <p>
+      The 12th Feb, 1993 was the most auspicious day when the foundation stone of Jawahar Navodaya Vidyalaya, Ratibad, Bhopal was laid down by Hon Shri Arjun Singh, the present Education Minister of Madhya Pradesh. The school campus covers around 30.67 acres of forested with its buildings connected by steep and windy paths and offering spectacular views at every turn. These buildings include the beautiful old Quad, the modern state of art infrastructure and the newly-refurbished student hostels and staff houses. The academic buildings including several classrooms are linked by a computer network. The widespread use of email and an intranet system shrinks the distances and keeps staff, students and administration in quick and easy contact with one another. The school is located on Sehore Bhopal Road at village Ratibad, Bhopal.
+     </p>
+    </div>
+    <div class="image">
+     <img alt="Academic Block (Outside)" src="https://placehold.co/400x300"/>
+    </div>
+   </div>
+   <div class="details">
+    <h3>
+     Details about JNV BHOPAL
+    </h3>
+   </div>
+  </div>
+ </body>
+</html>
